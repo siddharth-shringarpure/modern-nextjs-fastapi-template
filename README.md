@@ -41,13 +41,10 @@ components/ui/  -> shadcn/ui components
 # Add shadcn component (from root directory)
 pnpm dlx shadcn@latest add button
 
-# Lint and format backend
+# Linting and formatting
 uv run ruff check --fix backend/
 uv run ruff format backend/
-```
-
-# Lint and format frontend
-pnpm run lint
+pnpm run lint --fix
 ```
 
 ## Licence
