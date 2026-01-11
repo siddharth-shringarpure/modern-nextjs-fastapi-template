@@ -6,10 +6,13 @@ A clean, modern, full-stack template with Next.js 16, FastAPI, Tailwind CSS 4, a
 
 ## Tech Stack
 
-**Frontend:** Next.js 16 (Turbopack) · Tailwind CSS 4 · shadcn/ui · Lucide React · Sonner · Motion (Framer Motion)
-**Backend:** FastAPI · Python 3.13+  
-**Linting:** Ruff (Python) · ESLint (TypeScript)  
-**Package Managers:** pnpm (TypeScript) · uv (Python)
+**Frontend:** [`Next.js 16 (Turbopack)`](https://nextjs.org/docs) · [`Tailwind CSS 4`](https://tailwindcss.com/docs) · [`shadcn/ui`](https://ui.shadcn.com/docs/components) · [`Lucide React`](https://lucide.dev/icons/) · [`Sonner`](https://sonner.emilkowal.ski/) · [`Motion`](https://motion.dev/docs/react)
+
+**Backend:** [`FastAPI`](https://fastapi.tiangolo.com/) · `Python 3.13+`
+
+**Linting:** [`Ruff`](https://docs.astral.sh/ruff/) (Python) · [`ESLint`](https://eslint.org/docs/latest/) (TypeScript)
+
+**Package Managers:** [`pnpm`](https://pnpm.io/) (TypeScript) · [`uv`](https://docs.astral.sh/uv/) (Python)
 
 ## Prerequisites
 
