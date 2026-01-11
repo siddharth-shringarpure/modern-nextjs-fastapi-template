@@ -2,6 +2,8 @@
 
 A clean, modern, full-stack template with Next.js 16, FastAPI, Tailwind CSS 4, and shadcn/ui.
 
+<img src="public/image.png" alt="Modern Next.js + FastAPI Template" width="auto">
+
 ## Tech Stack
 
 **Frontend:** Next.js 16 (Turbopack) · Tailwind CSS 4 · shadcn/ui · Lucide React · Sonner · Motion (Framer Motion)
@@ -49,4 +51,4 @@ pnpm run lint --fix
 
 ## Licence
 
-MIT
+[MIT License](LICENSE)
