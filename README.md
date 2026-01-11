@@ -4,7 +4,7 @@ A clean, modern, full-stack template with Next.js 16, FastAPI, Tailwind CSS 4, a
 
 ## Tech Stack
 
-**Frontend:** Next.js 16 (Turbopack) · Tailwind CSS 4 · shadcn/ui · Lucide React · Sonner  
+**Frontend:** Next.js 16 (Turbopack) · Tailwind CSS 4 · shadcn/ui · Lucide React · Sonner · Motion (Framer Motion)
 **Backend:** FastAPI · Python 3.13+  
 **Linting:** Ruff (Python) · ESLint (TypeScript)  
 **Package Managers:** pnpm (TypeScript) · uv (Python)
@@ -44,6 +44,10 @@ pnpm dlx shadcn@latest add button
 # Lint and format backend
 uv run ruff check --fix backend/
 uv run ruff format backend/
+```
+
+# Lint and format frontend
+pnpm run lint
 ```
 
 ## Licence
