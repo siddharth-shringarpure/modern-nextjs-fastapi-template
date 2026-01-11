@@ -9,7 +9,7 @@ app = FastAPI()
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
-        "http://localhost:3000",   # Local development
+        "http://localhost:3000",  # Local development
         # "https://yoursite.com",  # Production (uncomment and replace)
     ],
     allow_methods=["*"],

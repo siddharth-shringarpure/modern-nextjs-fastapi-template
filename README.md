@@ -1,36 +1,51 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Modern Next.js + FastAPI Template
 
-## Getting Started
+A clean, modern, full-stack template with Next.js 16, FastAPI, Tailwind CSS 4, and shadcn/ui.
 
-First, run the development server:
+## Tech Stack
+
+**Frontend:** Next.js 16 (Turbopack) · Tailwind CSS 4 · shadcn/ui · Lucide React · Sonner  
+**Backend:** FastAPI · Python 3.13+  
+**Linting:** Ruff (Python) · ESLint (TypeScript)  
+**Package Managers:** pnpm (TypeScript) · uv (Python)
+
+## Prerequisites
+
+- [pnpm](https://pnpm.io/installation) — fast Node.js package manager
+- [uv](https://docs.astral.sh/uv/getting-started/installation/) — fast Python package manager
+
+## Quick Start
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
+# Install dependencies
+pnpm install && uv sync
+
+# Run frontend (localhost:3000)
 pnpm dev
-# or
-bun dev
+
+# Run backend (localhost:8000)
+uv run fastapi dev backend/main.py
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Project Structure
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+app/            -> Next.js frontend
+backend/        -> FastAPI backend
+components/ui/  -> shadcn/ui components
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Commands
 
-## Learn More
+```bash
+# Add shadcn component (from root directory)
+pnpm dlx shadcn@latest add button
 
-To learn more about Next.js, take a look at the following resources:
+# Lint and format backend
+uv run ruff check --fix backend/
+uv run ruff format backend/
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Licence
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+MIT
