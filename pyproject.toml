@@ -1,0 +1,9 @@
+[project]
+name = "modern-nextjs-fastapi-template"
+version = "0.1.0"
+description = "A modern Next.js + FastAPI template"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi[standard]>=0.128.0",
+]
